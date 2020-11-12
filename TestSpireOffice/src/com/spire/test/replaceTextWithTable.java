@@ -5,7 +5,7 @@ import com.spire.doc.documents.*;
 import com.spire.doc.fields.*;
 
 /**
- * ²âÊÔ¶ÁÈ¡WordµÄÎÄ×Ö£¬×ª»»Îªtable¡£
+ * æµ‹è¯•è¯»å–Wordçš„æ–‡å­—ï¼Œè½¬æ¢ä¸ºtableã€‚
 * @author WuBin
 *
 */

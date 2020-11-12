@@ -7,7 +7,8 @@ import java.awt.*;
 import java.awt.geom.Point2D;
 
 /**
- * ²âÊÔSpire.pdf
+ * æµ‹è¯•Spire.pdfã€‚
+ * ä¸­æ–‡æ— æ³•å†™å…¥ï¼Ÿ
  * @author WuBin
  *
  */
@@ -33,7 +34,7 @@ public class addImageInTableCell {
         PdfTrueTypeFont fontBody = new PdfTrueTypeFont(new Font("Arial", Font.PLAIN,12));
         table.getStyle().getAlternateStyle().setFont(fontBody);
 
-        String[] data = {"Column1--ÃèÊö;Column2--Í¼±ê","²âÊÔ£¬Insert an image in table cell for test;"};
+        String[] data = {"Column1--åˆ—ä¸€;Column2--åˆ—äºŒ","æµ‹è¯•Insert an image in table cell for test;"};
 
         String[][] dataSource = new String[data.length][];
         for (int i = 0; i < data.length; i++) {

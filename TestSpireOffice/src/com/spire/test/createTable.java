@@ -6,7 +6,7 @@ import com.spire.doc.fields.TextRange;
 import java.awt.*;
 
 /**
- * wordÖĞ´´½¨±í¸ñ
+ * wordä¸­åˆ›å»ºè¡¨æ ¼
  * @author WuBin
  *
  */
@@ -87,7 +87,7 @@ public class createTable {
     }
     
     public static Table addTableAndContent(Table table) {
-        String[] header = {"¹ú¼Ò", "Ê×¶¼", "´óÖŞ", "ÇøÓò", "ÈË¿Ú"};
+        String[] header = {"å›½å®¶", "é¦–éƒ½", "å¤§æ´²", "åŒºåŸŸ", "äººå£"};
         String[][] data =
                 {
                         new String[]{"Argentina", "Buenos Aires", "South America", "2777815", "32300003"},

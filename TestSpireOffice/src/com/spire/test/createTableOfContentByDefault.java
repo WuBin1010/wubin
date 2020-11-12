@@ -5,7 +5,7 @@ import com.spire.doc.documents.*;
 import com.spire.doc.fields.*;
 
 /**
-  * ²âÊÔWordµÄtable,ÌîĞ´ÎÄ×ÖºÍÍ¼Æ¬¡£
+  * æµ‹è¯•Wordçš„table,å¡«å†™æ–‡å­—å’Œå›¾ç‰‡ã€‚
  * @author WuBin
  *
  */
@@ -25,7 +25,7 @@ public class createTableOfContentByDefault {
         //Create paragraph and set the head level
         Paragraph para1 = section.addParagraph();
         //para1.appendText("Ornithogalum");
-        para1.appendText("ÍòÄêÇà");
+        para1.appendText("ä¸‡å¹´é’");
         //Apply the Heading1 style
         para1.applyStyle(BuiltinStyle.Heading_1);
         //Add paragraphs
@@ -33,14 +33,14 @@ public class createTableOfContentByDefault {
         DocPicture picture = para1.appendPicture("data/ornithogalum.jpg");
         picture.setTextWrappingStyle(TextWrappingStyle.Square);
         //para1.appendText("Ornithogalum is a genus of perennial plants mostly native to southern Europe and southern Africa belonging to the family Asparagaceae. Some species are native to other areas such as the Caucasus. Growing from a bulb, species have linear basal leaves and a slender stalk, up to 30 cm tall, bearing clusters of typically white star-shaped flowers, often striped with green.");
-        para1.appendText("ÍòÄêÇàÊÇÒ»ÖÖĞ¡»¨¡£Ornithogalum is a genus of perennial plants mostly native to southern Europe and southern Africa belonging to the family Asparagaceae.");
-        para1.appendText("\r\r"); //word »Ø³µ·û \r
+        para1.appendText("ä¸‡å¹´é’æ˜¯ä¸€ç§å°èŠ±ã€‚Ornithogalum is a genus of perennial plants mostly native to southern Europe and southern Africa belonging to the family Asparagaceae.");
+        para1.appendText("\r\r"); //word å›è½¦ç¬¦ \r
         para1 = section.addParagraph();
 
 
         Paragraph para2 = section.addParagraph();
         //para2.appendText("Rosa");
-        para2.appendText("Ãµ¹å");
+        para2.appendText("ç«ç‘°");
         //Apply the Heading2 style
         para2.applyStyle(BuiltinStyle.Heading_2);
         //para2.applyStyle(BuiltinStyle.Heading_1);
@@ -48,12 +48,12 @@ public class createTableOfContentByDefault {
         DocPicture picture2 = para2.appendPicture("data/rosa.jpg");
         picture2.setTextWrappingStyle(TextWrappingStyle.Square);
         //para2.appendText("A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing or trailing with stems that are often armed with sharp prickles. Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa. Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses, to climbers that can reach seven meters in height. Different species hybridize easily, and this has been used in the development of the wide range of garden roses.");
-        para2.appendText("Ãµ¹åÊÇÒ»ÖÖ³£¼ûµÄÃÀÀö»¨¶ä¡£A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars.");
+        para2.appendText("ç«ç‘°æ˜¯ä¸€ç§å¸¸è§çš„ç¾ä¸½èŠ±æœµã€‚A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars.");
         section.addParagraph();
 
         Paragraph para3 = section.addParagraph();
         //para3.appendText("Hyacinth");
-        para3.appendText("·çĞÅ×Ó");
+        para3.appendText("é£ä¿¡å­");
         //Apply the Heading3 style
         para3.applyStyle(BuiltinStyle.Heading_3);
         //para3.applyStyle(BuiltinStyle.Heading_1);
@@ -61,11 +61,11 @@ public class createTableOfContentByDefault {
         DocPicture picture3 = para3.appendPicture("data/hyacinths.JPG");
         picture3.setTextWrappingStyle(TextWrappingStyle.Tight);
         //para3.appendText("Hyacinthus is a small genus of bulbous, fragrant flowering plants in the family Asparagaceae, subfamily Scilloideae.These are commonly called hyacinths.The genus is native to the eastern Mediterranean (from the south of Turkey through to northern Israel).");
-        para3.appendText("·çĞÅ×ÓÊÇÒ»ÖÖÉÙ¼ûµÄ»¨¶ä¡£Hyacinthus is a small genus of bulbous.");
+        para3.appendText("é£ä¿¡å­æ˜¯ä¸€ç§å°‘è§çš„èŠ±æœµã€‚Hyacinthus is a small genus of bulbous.");
         para3 = section.addParagraph();
         //para3.appendText("Several species of Brodiea, Scilla, and other plants that were formerly classified in the lily family and have flower clusters borne along the stalk also have common names with the word \"hyacinth\" in them. Hyacinths should also not be confused with the genus Muscari, which are commonly known as grape hyacinths.");
         para3.appendText("Several species of Brodiea, Scilla. ");
-        para3.appendText("\r\r\r\r\r\r\r\r\r"); //word »Ø³µ·û \r
+        para3.appendText("\r\r\r\r\r\r\r\r\r"); //word å›è½¦ç¬¦ \r
         String replaceText = "2020.09.11";
         para3.appendText(replaceText);
 
